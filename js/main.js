@@ -1,5 +1,5 @@
 // import * as THREE from './../three/three/build/three.core.js';
-import * as THREE from 'three';
+import * as THREE from '../node_modules/three/build/three.module.js';
 
 alias: {
     // "@three": resolve(__dirname, "../node_modules/three")
