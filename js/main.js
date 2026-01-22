@@ -2,7 +2,7 @@
 import * as THREE from 'three';
 
 alias: {
-    "@three": resolve(__dirname, "../node_modules/three")
+    // "@three": resolve(__dirname, "../node_modules/three")
 }
 // import { OrbitControls } from './three/addons/controls/OrbitControls.js';
 // import { TransformControls } from './three/addons/controls/TransformControls.js';
