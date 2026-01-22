@@ -1,10 +1,15 @@
 // import * as THREE from './../three/three/build/three.core.js';
 import * as THREE from 'three';
+
+alias: {
+    "@three": resolve(__dirname, "../node_modules/three")
+}
 // import { OrbitControls } from './three/addons/controls/OrbitControls.js';
 // import { TransformControls } from './three/addons/controls/TransformControls.js';
-import { OrbitControls, TransformControls } from 'three/examples/jsm/Addons.js';
+// import { OrbitControls, TransformControls } from 'three/examples/jsm/Addons.js';
+import { OrbitControls, TransformControls } from '../node_modules/three/examples/jsm/Addons.js';
 import { InteractionManager } from '../node_modules/THREE.Interactive-1.8.0/build/three.interactive.js'
-import { EffectComposer, FBXLoader, FXAAShader, GammaCorrectionShader, OutlinePass, RenderPass, ShaderPass } from 'three/examples/jsm/Addons.js';
+import { EffectComposer, FBXLoader, FXAAShader, GammaCorrectionShader, OutlinePass, RenderPass, ShaderPass } from '../node_modules/three/examples/jsm/Addons.js';
 // import { FBXLoader } from './three/addons/loaders/FBXLoader.js';
 // import { EffectComposer } from './three/addons/postprocessing/EffectComposer.js';
 // import { RenderPass } from './three/addons/postprocessing/RenderPass.js';
